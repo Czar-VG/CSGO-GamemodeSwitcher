@@ -13,7 +13,7 @@ retakes.smx
 deathmatch.smx  
 1v1.smx  
 Paintball2.smx  
-##Todo list  
+## Todo list  
 Disable specific gamemodes with cvar  
 Guide to adding new gamemodes  
 or Gamemode config file  
