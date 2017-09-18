@@ -8,6 +8,7 @@ This will let owners of servers (targeted towards communities with smaller playe
   
 DISCLAIMER: Map menu will not appear unless you have the maps for all gamemodes in maplist.txt file  
 If you're going to use different versions of the plugins, rename the plugin files to:  
+  
 retakes.smx  
 deathmatch.smx  
 1v1.smx  
