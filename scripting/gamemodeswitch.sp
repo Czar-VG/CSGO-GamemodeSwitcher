@@ -160,27 +160,27 @@ public int MenuHandler2(Handle menu, MenuAction action, int client, int temp)
 
 public void GamemodeCompetitive()
 {
-	ServerCommand("changelevel %s;sm plugins unload disabled/multi1v1;sm plugins unload disabled/deathmatch;sm plugins unload disabled/warmod;sm plugins unload disabled/paintball;sm plugins unload disabled/retakes;", map);
+	ServerCommand("changelevel %s;sm plugins unload disabled/multi1v1;sm plugins unload disabled/deathmatch;sm plugins unload disabled/warmod;sm plugins unload disabled/Paintball2;sm plugins unload disabled/retakes;", map);
 }
 
 public void GamemodeRetake()
 {
-	ServerCommand("changelevel %s;sm plugins unload disabled/multi1v1;sm plugins unload disabled/deathmatch;sm plugins unload disabled/warmod;sm plugins unload disabled/paintball;sm plugins load disabled/retakes;", map);
+	ServerCommand("changelevel %s;sm plugins unload disabled/multi1v1;sm plugins unload disabled/deathmatch;sm plugins unload disabled/warmod;sm plugins unload disabled/Paintball2;sm plugins load disabled/retakes;", map);
 }
 
 public void GamemodeDeathmatch()
 {
-	ServerCommand("changelevel %s;sm plugins unload disabled/multi1v1;sm plugins unload disabled/retakes;sm plugins unload disabled/warmod;sm plugins unload disabled/paintball;sm plugins load disabled/deathmatch;mp_warmuptime 20", map);
+	ServerCommand("changelevel %s;sm plugins unload disabled/multi1v1;sm plugins unload disabled/retakes;sm plugins unload disabled/warmod;sm plugins unload disabled/Paintball2;sm plugins load disabled/deathmatch;mp_warmuptime 20", map);
 }
 
 public void Gamemode1v1()
 {
-	ServerCommand("changelevel %s;sm plugins unload disabled/retakes;sm plugins unload disabled/deathmatch;sm plugins unload disabled/warmod;sm plugins unload disabled/paintball;sm plugins load disabled/multi1v1;", map);
+	ServerCommand("changelevel %s;sm plugins unload disabled/retakes;sm plugins unload disabled/deathmatch;sm plugins unload disabled/warmod;sm plugins unload disabled/Paintball2;sm plugins load disabled/multi1v1;", map);
 }
 
 public void GamemodePaintball()
 {
-	ServerCommand("changelevel %s;sm plugins unload disabled/retakes;sm plugins unload disabled/deathmatch;sm plugins unload disabled/warmod;sm plugins unload disabled/multi1v1;sm plugins load disabled/paintball;", map);
+	ServerCommand("changelevel %s;sm plugins unload disabled/retakes;sm plugins unload disabled/deathmatch;sm plugins unload disabled/warmod;sm plugins unload disabled/multi1v1;sm plugins load disabled/Paintball2;", map);
 }
 
 
