@@ -2,7 +2,7 @@
 Lets server owners switch gamemodes with a command  
 This will let owners of servers (targeted towards communities with smaller player base) to switch between Competitive, Retakes, Deathmatch, 1v1, and Paintball. More gamemodes can be added easily (Guide will be added later).  
 ## Installation  
-1. Install all the gamemodes listed above
+1. Install all the gamemodes listed above but move the plugin(smx) file into the disabled folder
 2. Install this plugin
 3. Install maps for each gamemode (am_ for 1v1, pb_ for paintball)
   
